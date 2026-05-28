@@ -32,6 +32,7 @@ A production-inspired AI application that lets you upload a PDF and ask question
 ## Project Structure
 
 rag-doc-chatbot/
+
 ├── backend/
 │   ├── main.py        # FastAPI app + endpoints
 │   ├── ingest.py      # PDF ingestion + embedding pipeline
