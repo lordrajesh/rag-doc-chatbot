@@ -34,14 +34,23 @@ A production-inspired AI application that lets you upload a PDF and ask question
 rag-doc-chatbot/
 
 ├── backend/
+
 │   ├── main.py        # FastAPI app + endpoints
+
 │   ├── ingest.py      # PDF ingestion + embedding pipeline
+
 │   ├── query.py       # RAG query pipeline
+
 │   └── config.py      # Settings and environment variables
+
 ├── frontend/
+
 │   └── app.py         # Streamlit UI
+
 ├── data/              # Uploaded PDFs (gitignored)
+
 ├── .env               # API keys (gitignored)
+
 └── requirements.txt
 
 ## Run Locally
